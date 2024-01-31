@@ -1,0 +1,23 @@
+.wel{
+    font-size: 40px;
+    font-family:initial;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+}
+
+.bg{
+  background: linear-gradient(to right, rgb(30, 87, 87), #efeded ,rgb(30, 87, 87));
+
+  
+}  
+ .container-fluid {
+  min-height: 100vh; 
+  background: linear-gradient(to right, rgb(30, 87, 87), #efeded, rgb(30, 87, 87));
+  display: flex;
+  flex-direction: column;
+ }
+
+
+  
