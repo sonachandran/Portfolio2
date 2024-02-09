@@ -4,57 +4,72 @@ import Card from 'react-bootstrap/Card';
 import img3 from './image/img3.png'
 import img4 from './image/img4.png'
 import img5 from './image/img5.png'
+import './Project.css'
 
 
 const Project = () => {
-  return (
 
-<div className='row' style={{display:'flex',flexWrap:'wrap', margin:'170px'}}>
-  <div className='col-lg-4 col-md-4 col-sm-12'>
-  <Card style={{ width: '18rem' }}>
+  const registration = () => {
+    window.location.href = 'https://github.com/sonachandran/registration.git';
+  };
+
+
+  const todo=()=>{
+    window.location.href='https://github.com/sonachandran/todolist.git'
+  }
+
+  const plant=()=>{
+    window.location.href='https://github.com/sonachandran/plant.git'
+  }
+
+  
+
+  return (
+<div>
+<b><h3  className='head d-flex justify-content-center  align-items-center  '>PROJECT</h3></b>
+<div className='space d-inline-flex flex-wrap  w-100  justify-content-center  align-items-center '>  
+
+   <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img4}/>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>REGISTRATION</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Allowing individuals to provide necessary information to create an account or sign up for a service.  
         </Card.Text>
-        <Button variant="primary"></Button>
+        <Button variant="primary" onClick={registration }style={{background:'rgb(30, 87, 87)'}}>Git Hub</Button>
       </Card.Body>
     </Card> 
-  </div>
 
 
-<div className='col-lg-4 col-md-4 col-sm-12'>
+
 <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={img3}/>
     <Card.Body>
       <Card.Title>TODO-LIST</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      The app helps users stay organized, prioritize work, and track progress on various tasks or projects.
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      <Button variant="primary" onClick={todo} style={{background:'rgb(30, 87, 87)'}}>Git Hub</Button>
     </Card.Body>
   </Card> 
-</div>
 
-  <div className='col-lg-4 col-md-4 col-sm-12'>
   <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img5} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>PLANT</Card.Title>
+        It is an online platform dedicated to showcasing and sharing information about various plants.
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary" onClick={plant} style={{background:'rgb(30, 87, 87)'}}>Git Hub</Button>
       </Card.Body>
     </Card> 
-  </div>
-
+ 
 </div>
+</div>
+
   )
 }
 
 export default Project
+

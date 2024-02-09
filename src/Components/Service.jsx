@@ -4,15 +4,10 @@ import './Service.css'
 
 const Service = () => {
   return (
-   <>
-   <div className='row '>
-      <div className='container col ser'>
-         <h3>SERVICES</h3>
-      </div>
-    </div>
-
- <div className='row mt-5'style={{marginLeft:'150px'}}>
-    <div className='col-lg-4 col-md-4 col-sm-12 '>
+    <>
+    <div><h3 className='head d-flex justify-content-center  align-items-center  '>SERVICES</h3></div>
+  <div className='space d-inline-flex flex-wrap  w-100  justify-content-center  align-items-center'>
+    
    <Card style={{ width: '18rem', height:'300px'}}>
       <Card.Body>
         <Card.Title>Front-End</Card.Title>
@@ -22,9 +17,9 @@ const Service = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-    </div>
+    
 
-    <div className='col-lg-4 col-md-4 col-sm-12'>
+   
    <Card style={{ width: '18rem' ,height:'300px' }}>
       <Card.Body>
         <Card.Title>Back-End</Card.Title>
@@ -34,9 +29,9 @@ const Service = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-    </div>
+  
 
-    <div className='col-lg-4 col-md-4 col-sm-12'>
+    
    <Card style={{ width: '18rem' ,height:'300px' }}>
       <Card.Body>
         <Card.Title>UI & UX Design</Card.Title>
@@ -48,10 +43,10 @@ const Service = () => {
       </Card.Body>
     </Card>
     </div>
+     </>
 
 
-  </div>
-   </>
+
   )
 }
 

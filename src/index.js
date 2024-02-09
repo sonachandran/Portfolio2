@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Nav from './Components/Nav';
+import Nav from './Components/AppNavbar';
 import Home from './Components/Home';
 import About from './Components/About'
 
@@ -12,6 +12,9 @@ import Project from './Components/Project';
 import Service from './Components/Service';
 import Contact from './Components/Contact';
 import { Navbar } from 'react-bootstrap';
+import NavScrollExample from './Components/AppNavbar';
+import AppNavbar from './Components/AppNavbar';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +24,8 @@ root.render(
     
    <BrowserRouter>
     <Routes>
-        <Route path='/'element={<Nav/>}>
+        <Route path='/'element={<AppNavbar/>}>
+        
         <Route index element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
@@ -34,7 +38,4 @@ root.render(
       </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
