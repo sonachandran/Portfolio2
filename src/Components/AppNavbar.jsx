@@ -41,7 +41,7 @@ const AppNavbar = () => {
     <div className='bg'>
     <Navbar collapseOnSelect expand="lg" variant="dark" className='justtfy-content-center '>    
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse className='justify-content-center ' id="responsive-navbar-nav">
           <Nav className="d-flex   justify-content-center  align-items-center">
            <b><Link to='/home' className='link'>HOME</Link></b>
            <b><Link to='/about' className='link' >ABOUT</Link></b>
