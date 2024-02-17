@@ -1,26 +1,10 @@
-.wel{
-    font-size: 50px;
-    font-family:cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    color:  rgb(30, 87, 87);
-}
-  
- .bg{
-  background: linear-gradient(to right, rgb(30, 87, 87), #efeded ,rgb(30, 87, 87));
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  box-sizing: border-box;
-  width: 100%;  
-} 
-.head{
- margin-bottom: 6%;
- margin-top: 20%;
-}
-
 
   
+ 
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color:black;
+}
+
   

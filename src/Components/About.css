@@ -6,8 +6,18 @@
 }
 .img1{
     /* margin-top: -110px; */
-    margin-left: 80px;
+   
+   
+    
   
 }
+@media (max-width:480px) {
+    .img1{
+        align-self: center;
+        margin:5%;
+       
+    }
+}
+
 
 

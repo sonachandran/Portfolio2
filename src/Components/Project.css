@@ -9,9 +9,18 @@
    
 }
 .head{
-    margin-top:6%;
-    color:rgb(30, 87, 87);
+     color: white;
+    /* color:rgb(30, 87, 87); */
    }
    
-   
+   .card {
+    width: 18rem;
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
      

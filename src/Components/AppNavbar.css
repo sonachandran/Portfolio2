@@ -9,15 +9,17 @@
     gap: 40px;
     color: white;
     text-decoration: none;
-    font-family: cursive;
+  
   
 }
 .link{
     text-decoration: none;
-    color:rgb(30, 87, 87);
-    font-weight: 1000px;
-    font-size: 20px;
+    color: black;
+    /* color:rgb(30, 87, 87); */
+    /* font-weight: 1000px; */
+    font-size: 18px;
     padding: 10px;
-    color:  rgb(30, 87, 87);
+ 
+    /* color:  rgb(30, 87, 87); */
    
 }

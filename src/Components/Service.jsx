@@ -5,8 +5,8 @@ import './Service.css'
 const Service = () => {
   return (
     <>
-    <div><h3 className='head d-flex justify-content-center  align-items-center  '>SERVICES</h3></div>
-  <div className='space d-inline-flex flex-wrap  w-100  justify-content-center  align-items-center'>
+    <div><h3 className=' d-flex justify-content-center'style={{marginTop:'100px'}}>SERVICES</h3></div>
+  <div className='space d-inline-flex flex-wrap  w-100  justify-content-center  align-items-center mt-5'>
     
    <Card style={{ width: '18rem', height:'300px'}}>
       <Card.Body>

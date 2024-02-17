@@ -42,12 +42,12 @@ const AppNavbar = () => {
     <Navbar collapseOnSelect expand="lg" variant="dark" className='justtfy-content-center '>    
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className='justify-content-center ' id="responsive-navbar-nav">
-          <Nav className="d-flex   justify-content-center  align-items-center">
-           <b><Link to='/home' className='link'>HOME</Link></b>
-           <b><Link to='/about' className='link' >ABOUT</Link></b>
-            <b><Link to='/project' className='link'>PROJECT</Link></b>
-            <b> <Link to='/service' className='link'>SERVICES</Link></b>
-           <b><Link to='/contact' className='link'>CONTACT</Link></b>
+          <Nav className="d-flex   justify-content-center  align-items-center" style={{gap:'8%'}}>
+           <><Link to='/home' className='link'>HOME</Link></>
+           <><Link to='/about' className='link' >ABOUT</Link></>
+            <><Link to='/project' className='link'>PROJECT</Link></>
+            <> <Link to='/service' className='link'>SERVICES</Link></>
+           <><Link to='/contact' className='link'>CONTACT</Link></>
           </Nav>
           
         </Navbar.Collapse>
