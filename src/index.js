@@ -7,7 +7,7 @@ import Nav from './Components/AppNavbar';
 import Home from './Components/Home';
 import About from './Components/About'
 
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Project from './Components/Project';
 import Service from './Components/Service';
 import Contact from './Components/Contact';
