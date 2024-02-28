@@ -7,7 +7,7 @@ const Contact = () => {
     <>
  <div className='container1 bg' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <div className='row 'style={{marginTop:'100px'}}>
-       
+   
         {/* <h3 style={{color:'rgb(30, 87, 87)'}}> <b>CONTACT </b></h3> */}
         <h3 style={{color:'black'}}> <b>CONTACT </b></h3>
       </div>
